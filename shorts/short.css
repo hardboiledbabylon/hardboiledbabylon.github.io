@@ -1,0 +1,66 @@
+body{
+	max-width: 40em;
+	margin-left: auto;
+	margin-right: auto;
+	/*background-color:#EEEEEE;*/
+	/*background-color:#FFFFEC;*/
+	line-height:1.6;
+    background-image: url('../bg.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+//phones and such and really small windows
+@media (max-width: 40em) {
+	body{
+		max-width: 95%;
+	}
+}
+
+div.topside {
+	text-align: center;
+	padding-bottom: 15%;
+}
+
+span.invert {
+	/* color: #EEEEEE;
+	 b*ackground-color:#000000; */
+	font-weight: bold;
+} /* <span class="invert">¶</span> */
+
+div.entry {
+	text-align: justify;
+	background-color:#FFFFEC;
+	/*background-color:#0c0b07;*/
+	/*color: #EEEEEE;*/
+	color: #000000;
+	padding-left: 2.5em;
+	padding-right: 2.5em;
+}
+
+div.entry p {
+	text-align: block;
+	padding-bottom: 1em;
+	text-indent: 0em;
+}
+
+div.date {
+	font-weight: bold;
+	text-align: left;
+	text-indent: 0em;
+	padding-bottom: 1em;
+}
+
+h1 {
+	text-align: left;
+	/*padding-bottom: 10%;*/
+}
+
+h2 {
+	text-align: left;
+}
+
+a {
+	text-decoration: none;
+}
